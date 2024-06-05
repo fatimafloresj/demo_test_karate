@@ -22,7 +22,7 @@ Feature: Obtener Usuario
     """
     {
     "name": "fatima",
-    "job": "qa"
+    "job": "qas"
     }
     """
     When method POST
