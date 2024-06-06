@@ -33,4 +33,4 @@ Feature: Obtener Usuario
     When method DELETE
     Then status 204
 
-    Scenario: Miguel Piscoya
+    Scenario: Miguel
