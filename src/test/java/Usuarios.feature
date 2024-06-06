@@ -21,7 +21,7 @@ Feature: Obtener Usuario
     And request
     """
     {
-    "name": "fatima",
+    "name": "fatima flores",
     "job": "qas"
     }
     """
