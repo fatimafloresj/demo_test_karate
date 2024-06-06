@@ -28,7 +28,7 @@ Feature: Obtener Usuario
     When method POST
     Then status 201
 
-  Scenario: Eliminar usuarios 1
+  Scenario: Eliminar usuarios
     Given url 'https://reqres.in/api/users/2'
     When method DELETE
     Then status 204
