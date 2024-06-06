@@ -5,6 +5,6 @@ Feature: Obtener Usuario
 
   Scenario: Crear usuario
     Given url 'https://reqres.in/api/users'
-    And request {"name": "morpheus", "job": "leader"}
+    And request {"name": "morpheus", "job": "leaderR"}
     When method POST
     Then status 201
