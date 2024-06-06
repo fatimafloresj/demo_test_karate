@@ -3,7 +3,7 @@ Feature: Login de Usuario
   Quiero poder iniciar sesión en la aplicación
   Para acceder a las funcionalidades protegidas
 
-  Scenario: Login exitoso con credenciales válidas actualizado
+  Scenario: Login exitoso con credenciales válidas actualizado 2
     Given el usuario está en la página de login
     When el usuario ingresa su nombre de usuario "usuario_valido" y la contraseña "contraseña_valida"
     And hace clic en el botón de "Iniciar sesión"
